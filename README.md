@@ -1,2 +1,2 @@
 # fcc-responsive-web-design
-![Colored Markers Project]()
+![Color Markers Project](/../Color-Markers/color-markers.png)
