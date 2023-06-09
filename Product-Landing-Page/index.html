@@ -8,12 +8,28 @@
   </head>
   <body>
     <header id="header">
-      <img id="header-img">Logo</img>
+      <img id="header-img" src="/clipboardlogo.jpeg" placeholder="Logo"></img>
+      <section id="title">Wizard</section>
       <nav id="nav-bar">
-        <a href="" class="link">Features</a>
-        <a href=""class="link">How It Works</a>
-        <a href="" class="link">Pricing</a>
-      </nav
+        <a href="#features container" class="nav-link">Features</a>
+        <a href="#video"class="nav-link">How It Works</a>
+        <a href="#pricing container" class="nav-link">Pricing</a>
+      </nav>
+      <form id="form" method="GET" action="https://www.freecodecamp.com/email-submit">
+        <input id="email" name="email" placeholder="enter your email address" type="email" required></input>
+        <input id="submit" type="submit" value="GET STARTED"></input>
+      </form>
     </header>
+    <div id="features container">
+    <section class="features">Premium Service</section>
+    <section class="features">Personal Sovereignty</section>
+    <section class="features">Affordable Costs</section>
+    <div>
+    <iframe id="video" src="https://youtu.be/3JYTUwBlrTI"></iframe>
+    <div id="pricing container">
+    <section class="pricing">$9.99 / month</section>
+    <section class="pricing">$49.99 / month</section>
+    <section class="pricing">$99.99 / month</section>
+    </div>
   </body>
 </html>
