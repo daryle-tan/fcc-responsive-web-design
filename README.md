@@ -6,5 +6,5 @@
 ![Registration Form Project](/Registration-Form/registration-form.png)
 ![Rothko Painting Project](/Rothko-Painting/rothko-painting.png)
 ![Penguin Project](/Penguin/penguin.png)
-![Product Landing Page Project](/Product-Landing-Page/product-landing-page1.png)
-![Product Landing Page  Project](/Product-Landing-Page/product-landing-page2.png)
+![Product Landing Page Project](/Product-Landing-Page/productpage1.png)
+![Product Landing Page  Project](/Product-Landing-Page/productpage2.png)
