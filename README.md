@@ -8,4 +8,4 @@
 ![Penguin Project](/Penguin/penguin.png)
 ![Product Landing Page Project](/Product-Landing-Page/productpage1.png)
 ![Product Landing Page Project](/Product-Landing-Page/productpage2.png)
-![Tribute Project](/Tribute_Page/wizard.png)
+![Tribute Project](/TributePage/wizard.png)
