@@ -5,4 +5,4 @@
 ![Photo Gallery Project](/Photo-Gallery/photo-gallery.png)
 ![Registration Form Project](/Registration-Form/registration-form.png)
 ![Rothko Painting Project](/Rothko-Painting/rothko-painting.png)
-
+![Penguin Project](/Penguin/penguin.png)
