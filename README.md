@@ -1,4 +1,8 @@
 # fcc-responsive-web-design
+![City Skyline Project](/City-Skyline/skyline.png)
+![Piano Project](/Piano/piano.png)
+![Survey Form Project](/Survey-Form/survey-form.png)
+![Accessibility Quiz Project](/Accessibility-Quiz/quiz.png)
 ![Accessibility Quiz Project](/Accessibility-Quiz/quiz.png)
 ![Color Markers Project](/Color-Markers/color-markers.png)
 ![Nutrition Label Project](/Nutrition-Label/nutrition-label.png)
