@@ -13,4 +13,4 @@
 ![Product Landing Page Project](/Product-Landing-Page/productpage1.png)
 ![Product Landing Page Project](/Product-Landing-Page/productpage2.png)
 ![Balance Sheet](/Balance%20Sheet/balance-sheet.webp)
-![Tribute Project](/Tribute%20Page/)
+![Tribute Project](/Tribute%20Page/tribute.png)
