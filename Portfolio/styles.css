@@ -64,7 +64,7 @@ ul {
 
 .nav-list a {
   display: block;
-  font-size: 2.2rem;
+  font-size: 4rem;
   padding: 2rem;
 }
 
@@ -83,6 +83,9 @@ h2 {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   text-align: center;
+  font-size: 8rem;
+  white-space: nowrap;
+  width: 100%;
 }
 
 /* Welcome  Section */
@@ -102,7 +105,7 @@ h2 {
   gap: 10px;
 }
 .welcome-section > p {
-  font-size: 3rem;
+  font-size: 4rem;
   font-weight: 200;
   font-style: italic;
   color: var(--main-white);
@@ -122,9 +125,10 @@ h2 {
   background: var(--main-blue);
 }
 .projects-section-header {
-  max-width: 640px;
+  /* max-width: 640px; */
   margin: 0 auto 6rem auto;
-  border-bottom: 0.2rem solid var(--main-white);
+  /* border-bottom: 0.2rem solid var(--main-white); */
+  width: 74%;
 }
 .projects-grid {
   display: grid;
