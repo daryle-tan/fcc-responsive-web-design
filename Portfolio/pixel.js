@@ -35,6 +35,9 @@ let colorArr = [
   "buttonFace",
 ]
 let color
+const indicator = document.createElement("button")
+indicator.id = "indicator"
+canvas.append(indicator)
 
 for (let i = 0; i < colorArr.length; i++) {
   const colorPicker = document.createElement("button")
@@ -50,14 +53,12 @@ for (let i = 0; i < colorArr.length; i++) {
   canvas.append(colorPicker)
 }
 
-const indicator = document.createElement("button")
-indicator.id = "indicator"
-canvas.append(indicator)
-
 const input = document.createElement("input")
+input.className = "spectrum"
 input.setAttribute("type", "color")
 input.addEventListener("change", (e) => {
   color = e.target.value
+  indicator.style.background = color
 })
 
 canvas.append(input)
