@@ -115,6 +115,7 @@ h2 {
   background-color: #000;
   background-image: linear-gradient(62deg, #5f666e 0%, #181719 100%);
   gap: 10px;
+  font-family: "Raleway", sans-serif;
 }
 .welcome-section > p {
   font-size: 4rem;
@@ -136,10 +137,13 @@ h2 {
   text-align: center;
   padding: 10rem 2rem;
   background: var(--main-blue);
+  font-family: "Raleway", sans-serif;
 }
 .projects-section-header {
   /* max-width: 640px; */
   margin: 0 auto 6rem auto;
+  font-family: "Raleway", sans-serif;
+
   /* border-bottom: 0.2rem solid var(--main-white); */
   width: 74%;
 }
@@ -170,7 +174,7 @@ h2 {
 
 /* Contact Section */
 .contact-section-header {
-  background: linear-gradient(62deg, #5f666e 0%, #181719 100%);
+  /* background: linear-gradient(62deg, #5f666e 0%, #181719 100%); */
   width: 100%;
   height: 80vh;
   min-height: 40em;
@@ -188,7 +192,7 @@ h2 {
   align-items: center;
   text-align: center;
   width: 100%;
-  height: 80vh;
+  height: 100vh;
   padding: 0 2rem;
   background: var(--main-gray);
 }
@@ -198,12 +202,13 @@ h2 {
   justify-content: center;
   width: 100%;
   max-width: 980px;
-  margin-top: 4rem;
+  margin-top: 2rem;
+  margin-bottom: 5rem;
   flex-wrap: wrap;
 }
 
 .contact-details {
-  font-size: 2.4rem;
+  font-size: 3.5rem;
   text-shadow: 2px 2px 1px #1f1f1f;
   transition: transform 0.3s ease-out;
 }
@@ -212,7 +217,8 @@ h2 {
 .fab,
 .fal,
 .far,
-.fas {
+.fas,
+.fa-brands {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   display: inline-block;
@@ -220,6 +226,17 @@ h2 {
   font-variant: normal;
   text-rendering: auto;
   line-height: 1;
+}
+.fa,
+.far,
+.fas,
+.fa-brands {
+  font-family: "Font Awesome 5 Free";
+}
+.fa,
+.fas,
+.fa-brands {
+  font-weight: 900;
 }
 /* Pixel */
 .container {
@@ -263,9 +280,7 @@ h2 {
 }
 
 #buttonFace {
-  /* width: 200px; */
   content: "Erase";
-  /* height: 20px; */
   margin-left: 7px;
   border-radius: 5%;
 }
@@ -295,4 +310,58 @@ h2 {
   background: black;
   margin-left: 30px;
   border-radius: 5px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 1rem 2rem;
+  border-radius: 2px;
+}
+
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-50px);
+  }
+}
+
+.btn:hover {
+  animation: bounce 2s infinite;
+}
+
+/* Technology Section */
+.technologyContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 5rem;
+  /* overflow: hidden; */
+  width: 100%;
+}
+
+.technologyIcons {
+  display: flex;
+  flex-direction: column;
+}
+
+.icon {
+  width: 400px;
+  height: 400px;
+  background: whitesmoke;
+}
+
+.tName {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  color: var(--main-white);
+  height: 50px;
+  background: linear-gradient(
+    62deg,
+    rgb(199, 53, 199),
+    var(--main-purple) 100%
+  );
 }
