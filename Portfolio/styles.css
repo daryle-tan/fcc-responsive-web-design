@@ -345,7 +345,7 @@ h2 {
   display: flex;
   flex-direction: row;
   /* gap: 5rem; */
-  animation: 15s scroll infinite linear;
+  animation: 20s scroll infinite linear;
 }
 
 .technologyIcons {
