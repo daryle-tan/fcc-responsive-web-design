@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge" /> -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Daryle's Portfolio</title>
     <link href="./styles.css" rel="stylesheet" />
@@ -21,6 +21,7 @@
     />
   </head>
   <body>
+    <!-- Nav Bar -->
     <nav id="navbar" class="nav">
       <ul class="nav-list">
         <li>
@@ -34,15 +35,19 @@
         </li>
       </ul>
     </nav>
+    <!-- Welcome Section  -->
     <section id="welcome-section" class="welcome-section">
-      <img class="welcome-image" src="img/smartcontract-logo.png" alt="Smart Contract Logo" />
+      <img
+        class="welcome-image"
+        src="img/smartcontract-logo.png"
+        alt="Smart Contract Logo"
+      />
       <h1><span> Daryle Tan </span></h1>
       <p>Developer and Life Long Learner</p>
     </section>
+    <!-- Project Section -->
     <section id="projects" class="projects-section">
-      <h2 class="projects-section-header">
-        -- Here are some of my projects --
-      </h2>
+      <h2 class="projects-section-header">- Portfolio -</h2>
       <div class="projects-grid">
         <a
           href="https://vending-machine-application.vercel.app/"
@@ -89,6 +94,18 @@
           <p class="project-title">
             <span class="code">< </span>
             Instructor Hub
+            <span class="code">/></span>
+          </p>
+        </a>
+        <a
+          href="https://proshop-tk43.onrender.com/"
+          target="_blank"
+          class="project project-tile"
+        >
+          <img class="project-image" src="img/proshop.png" alt="project" />
+          <p class="project-title">
+            <span class="code">< </span>
+            ProShop Ecommerce
             <span class="code">/></span>
           </p>
         </a>
@@ -163,7 +180,7 @@
             alt="project"
           />
           <p class="project-title">
-            <span class="code"><</span>
+            <span class="code"></span>
             Token Indexer
             <span class="code">/></span>
           </p>
@@ -179,7 +196,7 @@
             alt="project"
           />
           <p class="project-title">
-            <span class="code"><</span>
+            <span class="code"></span>
             Block Explorer
             <span class="code">/></span>
           </p>
@@ -191,13 +208,18 @@
         >
           <img class="project-image" src="img/wallet.png" alt="project" />
           <p class="project-title">
-            <span class="code"><</span>
+            <span class="code"></span>
             Basic Wallet
             <span class="code">/></span>
           </p>
         </a>
       </div>
+      <div id="pagination">
+        <button id="prev">< Prev</button>
+        <button id="next">Next ></button>
+      </div>
     </section>
+    <!-- Contact Section -->
     <section id="contact" class="contact-section">
       <div class="contact-section-header">
         <h2>Let's build together...</h2>
@@ -273,17 +295,17 @@
               <img src="img/salesforce-logo.png" class="icon" />
               <span class="tName">Salesforce</span>
             </div>
-          </div>
-
-          <script>
-            var copy = document.querySelector(".slider-track").cloneNode(true)
-            document.querySelector(".technologyContainer").appendChild(copy)
-          </script>
-          
+            <div class="technologyIcons">
+              <img src="img/mongo-logo.jpg" class="icon-one" />
+              <span class="tName">MongoDB</span>
+            </div>
           </div>
         </div>
       </div>
     </section>
+
+    <script src="script.js"></script>
+
     <footer></footer>
   </body>
 </html>

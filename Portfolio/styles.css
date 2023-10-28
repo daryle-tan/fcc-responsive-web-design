@@ -51,6 +51,7 @@ html {
   );
   box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
   z-index: 10;
+  height: 7rem;
 }
 
 ul {
@@ -64,7 +65,7 @@ ul {
 
 .nav-list a {
   display: block;
-  font-size: 4rem;
+  font-size: 3rem;
   padding: 2rem;
 }
 
@@ -119,7 +120,9 @@ h2 {
   gap: 10px;
   font-family: "Raleway", sans-serif;
   color: rgb(209, 175, 137);
+  margin-top: 7rem;
 }
+
 .welcome-section > p {
   font-size: 4rem;
   font-weight: 200;
@@ -136,6 +139,7 @@ h2 {
   box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
   border-radius: 2px;
   height: 350px;
+  border-radius: 5px;
 }
 .projects-section {
   text-align: center;
@@ -158,11 +162,13 @@ h2 {
   width: 100%;
   max-width: 1280px;
   margin: 0 auto;
-  margin-bottom: 6rem;
+  margin-bottom: 3rem;
+  overflow: hidden;
 }
 .project-image {
   height: calc(100% - 6.8rem);
   width: 100%;
+  border-radius: 5px;
   /* object-fit: contain; */
 }
 
@@ -175,12 +181,26 @@ h2 {
   color: var(--main-gray);
   transition: color 0.3s ease-out;
 }
+#pagination {
+  text-align: center;
+}
+
+#prev,
+#next {
+  margin: 0 20px 0 20px;
+  width: 100px;
+  height: 40px;
+  font-size: 2rem;
+  font-family: "Raleway", sans-serif;
+  border-radius: 3px;
+  text-align: center;
+}
 
 /* Contact Section */
 .contact-section-header {
   /* background: linear-gradient(62deg, #5f666e 0%, #181719 100%); */
   width: 100%;
-  height: 80vh;
+  height: 100%;
   min-height: 40em;
   display: flex;
   flex-direction: column;
@@ -188,6 +208,7 @@ h2 {
   align-items: center;
   gap: 30px;
   color: rgb(209, 175, 137);
+  margin-top: 5rem;
 }
 
 .contact-section {
@@ -197,10 +218,9 @@ h2 {
   align-items: center;
   text-align: center;
   width: 100%;
-  height: 100vh;
+  height: 100%;
   padding: 0 2rem;
   background: linear-gradient(22deg, #5f666e 0%, #181719 100%);
-  overflow: hidden;
   white-space: nowrap;
 }
 
@@ -271,6 +291,8 @@ h2 {
 .technologyContainer {
   white-space: nowrap;
   width: 100%;
+  height: 100%;
+  margin-bottom: 2rem;
 }
 
 .slider-track {
@@ -334,4 +356,8 @@ h2 {
   100% {
     transform: translateX(-100%);
   }
+}
+
+::marker {
+  color: var(--main-blue);
 }
