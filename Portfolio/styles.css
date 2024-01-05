@@ -46,8 +46,8 @@ html {
   width: 100%;
   background: linear-gradient(
     42deg,
-    rgb(212, 166, 112),
-    rgb(223, 124, 10) 100%
+    rgb(111, 209, 236),
+    rgb(56, 114, 146) 100%
   );
   box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
   z-index: 10;
@@ -342,8 +342,8 @@ h2 {
   height: 50px;
   background: linear-gradient(
     42deg,
-    rgb(212, 166, 112),
-    rgb(223, 124, 10) 100%
+    rgb(111, 209, 236),
+    rgb(56, 114, 146) 100%
   );
   transform: translateZ(20px);
   border-radius: 0 0 10px 10px;
